@@ -1,0 +1,39 @@
+Word Puzzle App uses a method to replace vowels in a string with the dash symbol "-" to create a word puzzle to solve.
+
+1.word of single letter
+Input:a
+output:-
+
+2.word of single letter of non vowel
+Input:b
+output:b
+
+3.word of two letters of one vowel
+Input:ab
+output:-b
+
+4.word of two same  vowels
+Input:aa
+output:--
+
+5.word of two different vowels
+Input:au
+output:--
+
+6.word of two different letters
+Input:xz
+output:xz
+
+7.two words
+Input:an the
+Output:-n th-
+
+8.word with special chars
+Input:Sun *rises in the east!
+Output:S-n *r-s-es -n th- e-st!
+
+9.word start with special chars
+Input:!hooray
+Output:!h--r-y
+
+10.
