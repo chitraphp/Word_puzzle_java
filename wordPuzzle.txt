@@ -28,7 +28,7 @@ output:xz
 Input:an the
 Output:-n th-
 
-8.word with special chars
+8.String with special chars
 Input:Sun *rises in the east!
 Output:S-n *r-s-es -n th- e-st!
 
@@ -36,4 +36,10 @@ Output:S-n *r-s-es -n th- e-st!
 Input:!hooray
 Output:!h--r-y
 
-10.
+10.word of one capital letter of vowel
+Input:A
+Output:-
+
+11.word with capitals and special chars
+Input:Sun *rises In the East!
+OutPut:S-n *r-s-s -n th- -ast!

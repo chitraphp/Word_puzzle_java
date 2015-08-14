@@ -11,32 +11,36 @@ public class WordPuzzle {
 
 
   public static String vowelReplace( String input) {
-    input = input.toLowerCase();
+    String newInput = input;
     char[] inputCharsArray = input.toCharArray();
-    String newInput = "";
-
-    // String newInput = input.replace('b','c');
-    // System.out.println(newInput);
-    char[] vowels = {'a', 'e', 'i', 'o', 'u'};
-
 
     for(char inputChar : inputCharsArray ) {
-      System.out.println(inputChar);
+      //System.out.println(inputChar);
       switch (inputChar) {
-
-        case 'a': newInput = input.replace('a', '-');
+        case 'a': newInput = newInput.replace('a', '-');
         //System.out.println(newInput);
+                  break;
+        case 'e': newInput = newInput.replace('e', '-');
+                  break;
+        case 'i': newInput = newInput.replace('i', '-');
+                  break;
+        case 'o': newInput = newInput.replace('o', '-');
+                  break;
+        case 'u': newInput = newInput.replace('u', '-');
+                  break;
+        case 'A': newInput = newInput.replace('A', '-');
+                  break;
+        case 'E': newInput = newInput.replace('E', '-');
+                  break;
+        case 'I': newInput = newInput.replace('I', '-');
+                  break;
+        case 'O': newInput = newInput.replace('O', '-');
+                  break;
+        case 'U': newInput = newInput.replace('U', '-');
+                  break;
 
-                  break;
-        case 'e': newInput = input.replace('e', '-');
-                  break;
-        case 'i': newInput = input.replace('i', '-');
-                  break;
-        case 'o': newInput = input.replace('o', '-');
-                  break;
-        case 'u': newInput = input.replace('u', '-');
-                  break;
         default:
+        //System.out.println(newInput);
                   break;
       }
     }
