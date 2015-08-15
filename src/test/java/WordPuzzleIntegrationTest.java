@@ -22,7 +22,7 @@ public class WordPuzzleIntegrationTest extends FluentTest {
   }
 
   @Test
-  public void enterCoins() {
+  public void checkTitle() {
   goTo("http://localhost:4567/");
   fill("#userInput").with("a");
   submit(".btn");

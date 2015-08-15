@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WordPuzzleUnitTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-08-14T22:23:53" hostname="epicodus-109.local" time="0.004">
+<testsuite name="WordPuzzleUnitTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-08-14T23:57:11" hostname="epicodus-109.local" time="0.004">
   <properties/>
-  <testcase name="wordOf_two_consonants" classname="WordPuzzleUnitTest" time="0.0"/>
+  <testcase name="wordOf_two_consonants" classname="WordPuzzleUnitTest" time="0.002"/>
   <testcase name="wordOf_two_vowels" classname="WordPuzzleUnitTest" time="0.0"/>
   <testcase name="stringOf_two_words" classname="WordPuzzleUnitTest" time="0.0"/>
   <testcase name="wordOf_oneChar_consonant" classname="WordPuzzleUnitTest" time="0.0"/>
